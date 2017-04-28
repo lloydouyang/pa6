@@ -2,8 +2,6 @@ import urllib2
 import json
 import dbb
 
-API_BASE="http://bartjsonapi.elasticbeanstalk.com/api"
-
 def lambda_handler(event, context):
     if (event["session"]["application"]["applicationId"] !=
             "amzn1.ask.skill.cf2f3d20-045e-4e8a-ac06-cea574333e12"):
@@ -73,16 +71,6 @@ def get_title(intent):
     card_title = "Course Title"
     reprompt_text = ""
     should_end_session = False
-
-    # response = urllib2.urlopen(API_BASE + "/status")
-    # bart_system_status = json.load(response)
-    #
-    # speech_output = "There are currently " + bart_system_status["traincount"] + " trains operating. "
-    #
-    # if len(bart_system_status["message"]) > 0:
-    #     speech_output += bart_system_status["message"]
-    # else:
-    #     speech_output += "The trains are running normally."
     cn=intent["slots"]["coursenum"]["value"]
     speech_output = dbb.accessDatabase(str(cn),4)
     return build_response(session_attributes, build_speechlet_response(
