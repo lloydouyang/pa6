@@ -19,7 +19,7 @@ def accessDatabase(num,question):
 
     
             for i in range(0,numrows):
-                if (str(result[i][0].number)==num) :
+                if (str(result[i][0])==num) :
                     if (question==1):
                         s=str(result[i][1])
                     if (question==2):
