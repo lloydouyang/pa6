@@ -12,11 +12,11 @@
   },
   "request": {
     "type": "IntentRequest",
-    "requestId": "EdwRequestId.b135894c-a8cb-41f0-883e-d02691b799d0",
+    "requestId": "EdwRequestId.3753a8e1-3ede-4fb7-bb4f-2f26d381b161",
     "locale": "en-US",
-    "timestamp": "2017-04-28T21:26:28Z",
+    "timestamp": "2017-04-28T21:28:01Z",
     "intent": {
-      "name": "GetWho",
+      "name": "GetSeats",
       "slots": {
         "coursenum": {
           "name": "coursenum",
