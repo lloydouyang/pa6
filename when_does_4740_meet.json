@@ -1,6 +1,6 @@
 {
   "session": {
-    "sessionId": "SessionId.4605b092-0c09-4307-8ef2-7e439849122a",
+    "sessionId": "SessionId.d973aff1-31ef-4bc6-bf13-6fe618db2824",
     "application": {
       "applicationId": "amzn1.ask.skill.cf2f3d20-045e-4e8a-ac06-cea574333e12"
     },
@@ -12,11 +12,11 @@
   },
   "request": {
     "type": "IntentRequest",
-    "requestId": "EdwRequestId.f39e1062-eb93-4618-ae25-4adc73fcf496",
+    "requestId": "EdwRequestId.cc3c0105-0fd4-4508-97ec-807cc7edd7a3",
     "locale": "en-US",
-    "timestamp": "2017-04-28T20:41:46Z",
+    "timestamp": "2017-04-28T21:18:20Z",
     "intent": {
-      "name": "GetTime",
+      "name": "GetTitle",
       "slots": {
         "coursenum": {
           "name": "coursenum",
