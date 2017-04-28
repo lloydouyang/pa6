@@ -72,7 +72,7 @@ def get_title(intent):
     reprompt_text = ""
     should_end_session = False
     cn=intent["slots"]["coursenum"]["value"]
-    speech_output = dbb.accessDatabase(str(cn),4)
+    speech_output = dbb.accessDatabase(str(cn),1)
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
 
