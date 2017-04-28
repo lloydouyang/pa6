@@ -1,0 +1,29 @@
+{
+  "session": {
+    "sessionId": "SessionId.411e1134-95c0-4621-a031-f2b024eec15c",
+    "application": {
+      "applicationId": "amzn1.ask.skill.cf2f3d20-045e-4e8a-ac06-cea574333e12"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AGQGTSCKJF3IEWVA5SDAY7HUVJRKKVHRW73TJHN3YLLGIDUBY725TCHJ72XE4NJ5OCX4GEACVKVDNEAEKAI5OTIQNFPYME44CO7LYM4DMCFAQXRHZ3VLDXIDDEF3RN3JPUITC2NQZDUJQ6NOSVKLRQFHQMIMBIM6T2L3QPQAM27EDE7PR7R2KLRT3CMXTCCUQHJMCU2JFTSTPDQ"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.da4d2467-bfd4-4ad0-9c0b-cf59ede2a90f",
+    "locale": "en-US",
+    "timestamp": "2017-04-28T18:37:12Z",
+    "intent": {
+      "name": "GetTime",
+      "slots": {
+        "coursenum": {
+          "name": "coursenum",
+          "value": "4740"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
