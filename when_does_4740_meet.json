@@ -8,15 +8,15 @@
     "user": {
       "userId": "amzn1.ask.account.AGQGTSCKJF3IEWVA5SDAY7HUVJRKKVHRW73TJHN3YLLGIDUBY725TCHJ72XE4NJ5OCX4GEACVKVDNEAEKAI5OTIQNFPYME44CO7LYM4DMCFAQXRHZ3VLDXIDDEF3RN3JPUITC2NQZDUJQ6NOSVKLRQFHQMIMBIM6T2L3QPQAM27EDE7PR7R2KLRT3CMXTCCUQHJMCU2JFTSTPDQ"
     },
-    "new": true
+    "new": false
   },
   "request": {
     "type": "IntentRequest",
-    "requestId": "EdwRequestId.cc3c0105-0fd4-4508-97ec-807cc7edd7a3",
+    "requestId": "EdwRequestId.b135894c-a8cb-41f0-883e-d02691b799d0",
     "locale": "en-US",
-    "timestamp": "2017-04-28T21:18:20Z",
+    "timestamp": "2017-04-28T21:26:28Z",
     "intent": {
-      "name": "GetTitle",
+      "name": "GetWho",
       "slots": {
         "coursenum": {
           "name": "coursenum",
